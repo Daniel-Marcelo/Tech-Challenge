@@ -1,0 +1,27 @@
+.heading-primary {
+    color: #000000;
+    line-height: 1.2;
+    margin: 30px 0 0 0;
+}
+
+.heading-primary--main {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.heading-primary--sub {
+    font-size: 18px;
+    padding-right: 30px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.heading-primary--lg {
+    max-width: 430px;
+}
+
+.heading-primary--sm {
+    max-width: 340px;
+}

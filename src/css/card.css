@@ -1,0 +1,52 @@
+.card {
+    width: 375px;
+    float: left;
+    background: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.card:nth-child(odd) {
+    margin-right: 30px;
+}
+
+.card-content {
+    padding: 30px;
+    display: inline-block;
+}
+
+.app-details {
+    height: 60px;
+    color: #4A4a4a;
+    cursor: pointer;
+}
+
+.card-content__host-name {
+    font-weight: 700;
+    padding-bottom: 23px;
+    display: inline-block;
+}
+
+.card-content__icon {
+    margin-left: 15px;
+    font-size: 14px;  
+    cursor: pointer;    
+    color: #3973ac;  
+}
+
+.app-details--rating {
+    padding-right: 10px;
+    height: 100%;
+    float: left;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.app-details--name {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.heading-primary--label {
+    font-size: 14px;
+}
